@@ -9,3 +9,4 @@ import { SearchComponent } from './search.component';
   exports: [SearchComponent],
 })
 export class BookingFeatureSearchModule {}
+
