@@ -14,7 +14,22 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@my-nx-workspace/booking/domain": ["libs/booking/domain/src/index.ts"],
+      "@my-nx-workspace/booking/feature-search": [
+        "libs/booking/feature-search/src/index.ts"
+      ],
+      "@my-nx-workspace/booking/feature-tickets": [
+        "libs/booking/feature-tickets/src/index.ts"
+      ],
+      "@my-nx-workspace/boarding/domain": ["libs/boarding/domain/src/index.ts"],
+      "@my-nx-workspace/boarding/feature-manage": [
+        "libs/boarding/feature-manage/src/index.ts"
+      ],
+      "@my-nx-workspace/boarding/feature-upgrade": [
+        "libs/boarding/feature-upgrade/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

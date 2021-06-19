@@ -1,8 +1,4 @@
 {
-  "npmScope": "my-nx-workspace",
-  "affected": {
-    "defaultBase": "master"
-  },
   "implicitDependencies": {
     "package.json": {
       "dependencies": "*",
@@ -10,6 +6,10 @@
     },
     ".eslintrc.json": "*"
   },
+  "affected": {
+    "defaultBase": "master"
+  },
+  "npmScope": "my-nx-workspace",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
@@ -20,11 +20,43 @@
   },
   "projects": {
     "my-app": {
-      "tags": []
+      "tags": ["domain:booking", "domain:boarding", "type:app"]
     },
     "my-app-e2e": {
       "tags": [],
       "implicitDependencies": ["my-app"]
+    },
+    "booking-domain": {
+      "tags": ["domain:booking", "type:domain-logic"]
+    },
+    "booking": {
+      "tags": ["domain:booking", "type:app"]
+    },
+    "booking-e2e": {
+      "tags": [],
+      "implicitDependencies": ["booking"]
+    },
+    "booking-feature-search": {
+      "tags": ["domain:booking", "type:feature"]
+    },
+    "booking-feature-tickets": {
+      "tags": ["domain:booking", "type:feature"]
+    },
+    "boarding-domain": {
+      "tags": ["domain:boarding", "type:domain-logic"]
+    },
+    "boarding": {
+      "tags": ["domain:boarding", "type:app"]
+    },
+    "boarding-e2e": {
+      "tags": [],
+      "implicitDependencies": ["boarding"]
+    },
+    "boarding-feature-manage": {
+      "tags": ["domain:boarding", "type:feature"]
+    },
+    "boarding-feature-upgrade": {
+      "tags": ["domain:boarding", "type:feature"]
     }
   }
 }
