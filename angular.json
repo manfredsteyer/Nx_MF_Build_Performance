@@ -93,7 +93,7 @@
               "namedChunks": true
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "development"
         },
         "serve": {
           "builder": "ngx-build-plus:dev-server",
@@ -192,7 +192,7 @@
               "tsConfig": "libs/booking/domain/tsconfig.lib.json"
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "development"
         },
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -278,7 +278,7 @@
               "namedChunks": true
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "development"
         },
         "serve": {
           "builder": "ngx-build-plus:dev-server",
@@ -376,7 +376,7 @@
               "tsConfig": "libs/booking/feature-search/tsconfig.lib.json"
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "development"
         },
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -421,7 +421,7 @@
               "tsConfig": "libs/booking/feature-tickets/tsconfig.lib.json"
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "development"
         },
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -466,7 +466,7 @@
               "tsConfig": "libs/boarding/domain/tsconfig.lib.json"
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "development"
         },
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -551,7 +551,7 @@
               "namedChunks": true
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "development"
         },
         "serve": {
           "builder": "ngx-build-plus:dev-server",
@@ -648,7 +648,7 @@
               "tsConfig": "libs/boarding/feature-manage/tsconfig.lib.json"
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "development"
         },
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -693,7 +693,7 @@
               "tsConfig": "libs/boarding/feature-upgrade/tsconfig.lib.json"
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "development"
         },
         "test": {
           "builder": "@nrwl/jest:jest",
