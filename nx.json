@@ -20,7 +20,7 @@
   },
   "projects": {
     "my-app": {
-      "tags": ["domain:booking", "domain:boarding", "type:app"]
+      "tags": ["*"]
     },
     "my-app-e2e": {
       "tags": [],

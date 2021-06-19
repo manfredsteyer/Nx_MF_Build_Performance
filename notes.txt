@@ -1,0 +1,9 @@
+ng add @angular-architects/module-federation@latest --project booking --port 3000
+ng add @angular-architects/module-federation@latest --project boarding --port 3001
+ng add @angular-architects/module-federation@latest --project my-app --port 5000
+
+
+
+441 KB -- prod+mf
+343 KB -- prod-mf
+
