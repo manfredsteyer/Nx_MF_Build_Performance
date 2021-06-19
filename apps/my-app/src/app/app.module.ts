@@ -6,10 +6,13 @@ import { BookingFeatureSearchModule } from '@my-nx-workspace/booking/feature-sea
 import { BookingFeatureTicketsModule } from '@my-nx-workspace/booking/feature-tickets';
 import { BoardingFeatureManageModule } from '@my-nx-workspace/boarding/feature-manage';
 import { BoardingFeatureUpgradeModule } from '@my-nx-workspace/boarding/feature-upgrade';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   imports: [
     BrowserModule, 
+    HttpClientModule,
+    
     BoardingFeatureManageModule,
     BoardingFeatureUpgradeModule,
     BookingFeatureTicketsModule,
