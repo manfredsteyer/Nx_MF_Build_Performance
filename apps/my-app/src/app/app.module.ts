@@ -1,19 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
-import { BookingFeatureSearchModule } from '@my-nx-workspace/booking/feature-search';
-import { BookingFeatureTicketsModule } from '@my-nx-workspace/booking/feature-tickets';
-import { BoardingFeatureManageModule } from '@my-nx-workspace/boarding/feature-manage';
-import { BoardingFeatureUpgradeModule } from '@my-nx-workspace/boarding/feature-upgrade';
 
 @NgModule({
   imports: [
-    BrowserModule, 
-    BoardingFeatureManageModule,
-    BoardingFeatureUpgradeModule,
-    BookingFeatureTicketsModule,
-    BookingFeatureSearchModule
+    BrowserModule,
+    HttpClientModule
   ],
   declarations: [AppComponent],
   providers: [],
